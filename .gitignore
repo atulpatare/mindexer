@@ -1,0 +1,8 @@
+# build files
+/target
+
+# ide files
+.idea/
+
+# lock files
+*.lock
