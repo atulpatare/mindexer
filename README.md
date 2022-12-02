@@ -1,5 +1,5 @@
 <div align="center">
-    <h3><samp>minindexer</samp></h3>
+    <h3><samp>mindexer</samp></h3>
     <samp>A minimal indexer for fuel network</samp>
 </div>
 
