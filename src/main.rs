@@ -1,7 +1,8 @@
 use std::str::FromStr;
+
 use fuel_gql_client::client::{FuelClient, PageDirection, PaginationRequest};
-use fuel_gql_client::client::schema::block::{Header};
-use fuel_gql_client::fuel_tx::{Receipt};
+use fuel_gql_client::client::schema::block::Header;
+use fuel_gql_client::fuel_tx::Receipt;
 use fuel_gql_client::prelude::ContractId;
 
 pub fn serialize_data(_b: &Header, r: Receipt) {
@@ -11,7 +12,6 @@ pub fn serialize_data(_b: &Header, r: Receipt) {
     if log_id == 4 {
         println!("This is mint event");
         println!("{:?}", data);
-
     }
 
     if log_id == 6 {

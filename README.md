@@ -14,11 +14,13 @@
 
 - Clone the repo
 - Build the package
+
 ```shell
 cargo build --release
 ```
 
 - Run the package
+
 ```
 cargo run
 ```
